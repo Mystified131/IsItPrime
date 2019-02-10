@@ -1,0 +1,26 @@
+﻿
+@model MVCApplication.ViewModels.ResultViewModel
+
+@{
+    ViewData["Title"] = "Result";
+}
+
+<h2>Result</h2>
+
+<br />
+
+@if (@Model.State != false)
+
+{ 
+    <p>Is the number @Model.Numin  prime?</p>
+
+<br />
+
+<p>The answer is: @Model.Answer</p>
+
+<br />
+
+}
+
+<p>@Model.Error</p>
+

@@ -1,0 +1,18 @@
+﻿@model MVCApplication.ViewModels.IndexViewModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>Input</h2>
+
+<form action='Home/Result' method='POST' align="left">
+    <div>
+    <label>
+        Please enter a number:
+    </label><br><br>
+    <input name="Numin" type="text" value="" />
+    <br /><br />
+    <input type="submit" value="Calculate Results" />
+        </div>
+</form>
