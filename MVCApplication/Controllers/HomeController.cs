@@ -30,7 +30,7 @@ namespace MVCApplication.Controllers
         {
             ResultViewModel resultViewModel = new ResultViewModel();
 
-            resultViewModel.Error = "To test a new number, please return to the 'Add' page.";
+            resultViewModel.Error = "To test a new number, please return to the 'Input' page.";
 
             return View(resultViewModel);
         }
