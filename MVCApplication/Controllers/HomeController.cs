@@ -47,7 +47,7 @@ namespace MVCApplication.Controllers
                 resultViewModel.Answer = true;
                 resultViewModel.State = true;
 
-                if ((resultViewModel.Numin <= 1) || (resultViewModel.Numin == 2) || (resultViewModel.Numin % 2 == 0))
+                if ((resultViewModel.Numin <= 1) || ((resultViewModel.Numin % 2 == 0) && (resultViewModel.Numin != 2)))
                 {
 
                     resultViewModel.Answer = false;
